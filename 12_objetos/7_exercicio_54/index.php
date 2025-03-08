@@ -1,11 +1,11 @@
 <?php 
 
-  class Pessoa {
+  class Pessoa {  // classe
 
-    public $nome;
+    public $nome;  // propriedade
     public $idade;
 
-    function andar($m) {
+    function andar($m) {  // método
         echo "A pessoa andou $m metros <br>";
     }
 
